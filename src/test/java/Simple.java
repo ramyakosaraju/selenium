@@ -32,7 +32,7 @@ public class Simple {
         //opens the compose inside the gmail
         obj.findElement(By.cssSelector(".T-I.J-J5-Ji.T-I-KE.L3")).click();
         //obj.findElement(By.className("z0")).click();
-        obj.findElement(By.className("vO2323")).sendKeys("ksramya.455555@gmail.com");
+        obj.findElement(By.className("vO")).sendKeys("ksramya.455555@gmail.com");
         obj.findElement(By.className("aoT")).sendKeys("Test email from selenium");
         obj.findElement(By.className("Am")).sendKeys("THis is ramya");
         obj.findElement(By.className("aoO")).click();
